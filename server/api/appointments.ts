@@ -2,7 +2,6 @@ import { Schema, model } from "mongoose"
 
 const schema = new Schema({
   name: { type: String }
-  // { timestamps: true, strict: true, strictQuery: true }
 })
 
 export const Appointment = model('Appointment', schema)
